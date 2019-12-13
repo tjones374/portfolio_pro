@@ -1,3 +1,39 @@
+.nav-link {
+	color: white;
+}
+.navbar-brand {
+	color: white;
+}
+
 body {
-	background-image: url;
+	background-image: url(/assets/background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 1480px auto;
+}
+.about {
+	color: white;
+	width: 100%;
+	padding-top: 50px;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+.social-med {
+	position: absolute;
+	top: 87%;
+	left: 75%;
+	color: white;
+	font-size: 35px;
+	margin: 10px;
+	margin-top: 30px;
+	padding-bottom: 0;
+}
+.fab {
+	color: white;
+}
+
+footer {
+	color: white;
+	margin-left: 615px;
+
+	margin-bottom: 10px;
 }
