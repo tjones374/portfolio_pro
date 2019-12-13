@@ -3,19 +3,35 @@
 }
 .navbar-brand {
 	color: white;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font: bold;
+	font-size: 20px;
 }
-
+.navbar {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font: bold;
+	font-size: 20px;
+}
 body {
 	background-image: url(/assets/background.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 1480px auto;
 }
-.about {
+.title {
 	color: white;
+	font-size: 60px;
 	width: 100%;
 	padding-top: 50px;
+	margin-top: 40px;
+	margin-left: 260px;
 	font-family: 'Montserrat Alternates', sans-serif;
+}
+.tag-line {
+	color: white;
+	font-family: 'Montserrat Alternates', sans-serif;
+	margin-left: 400px;
+	padding-top: 30px;
 }
 .social-med {
 	position: absolute;
@@ -34,6 +50,5 @@ body {
 footer {
 	color: white;
 	margin-left: 615px;
-
-	margin-bottom: 10px;
+	padding-top: 190px;
 }
