@@ -43,6 +43,7 @@ body {
 	color: white;
 	font-size: 35px;
 	margin-bottom: 0px;
+	padding-top: 10px;
 }
 .social-med:hover {
 	color: #17a2b8;
@@ -57,5 +58,5 @@ body {
 	margin-left: 390px;
 	color: white;
 	font-family: 'Montserrat Alternates', sans-serif;
-	margin-top: 75px;
+	margin-top: 105px;
 }
