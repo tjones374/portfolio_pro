@@ -1,7 +1,6 @@
 .nav-link {
 	color: white;
 }
-
 .navbar-brand {
 	color: white;
 	font-family: 'Montserrat Alternates', sans-serif;
@@ -14,47 +13,32 @@
 	font: bold;
 	font-size: 20px;
 }
-
-.intro {
-	color: white;
-	width: 100%;
-	margin: 50px;
-	text-align: justify;
-	text-justify: inter-word;
-	padding-top: 50px;
-	margin-top: 40px;
-	margin-bottom: 20px;
-	font-family: 'Montserrat Alternates', sans-serif;
-}
-
 .contact {
 	color: white;
 	font-family: 'Montserrat Alternates', sans-serif;
-	font-size: 45px;
 	width: 100%;
-	margin-left: 360px;
-	padding-top: -500px;
-	padding-bottom: 20px;
+	margin-left: 180px;
+	padding-top: 100px;
 }
 
 .phone {
 	font-family: 'Montserrat Alternates', sans-serif;
-	margin-left: 500px;
+	margin-left: 180px;
 	color: white;
-	margin-left: 375px;
+	padding-top: 20px;
 }
 
 .email {
 	font-family: 'Montserrat Alternates', sans-serif;
-	margin-left: 325px;
+	margin-left: 130px;
 	color: white;
-	padding-bottom: 5px;
-	margin-bottom: 0px;
+	padding-top: 5px;
 }
 
 .resume {
 	font-family: 'Montserrat Alternates', sans-serif;
-	margin-left: 450px;
+	margin-left: 260px;
+	padding-top: 20px;
 	color: white;
 }
 .resume:hover {
@@ -70,40 +54,34 @@ h2 {
 	margin-left: 260px;
 	padding-top: 30px;
 }
-
 .social-med {
-	position: absolute;
-	top: 60%;
-	left: 38%;
+	position: relative;
+	left: 21.5%;
 	color: white;
 	font-size: 35px;
-	margin: 10px;
-	margin-top: 30px;
-	padding-top: 10px;
+	margin-bottom: 0px;
 }
-
 .fab {
 	color: white;
 }
 .fab:hover {
 	color: #17a2b8;
 }
-
 .background-portfolio {
-	background-image: url(../assets/background_portfolio_contact.jpg);
+	background-image: url(../assets/bckgrd2.jpg);
+	max-width: 100%;
+	height: auto;
 	background-repeat: no-repeat;
-	background-size: 1480px auto;
+	background-size: cover;
+	z-index: -1;
+	overflow: hidden;
 }
-
 .copy-right {
-	padding-top: 150px;
-	margin-left: 425px;
+	margin-left: 240px;
 	color: white;
 	font-family: 'Montserrat Alternates', sans-serif;
-	margin-top: 70px;
-	margin-bottom: 0px;
+	margin-top: 110px;
 }
-
 footer {
 	color: white;
 	margin-left: 615px;
