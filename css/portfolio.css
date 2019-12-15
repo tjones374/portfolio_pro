@@ -1,9 +1,3 @@
-.background-portfolio {
-	background-image: url(../assets/background_portfolio_contact.jpg);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: 1480px auto;
-}
 .nav-link {
 	color: white;
 }
@@ -18,4 +12,36 @@
 	font-family: 'Montserrat Alternates', sans-serif;
 	font: bold;
 	font-size: 20px;
+	margin-top: 0;
+}
+.background-portfolio {
+	background-image: url(../assets/background_portfolio_contact.jpg);
+	background-repeat: no-repeat;
+	background-size: 1480px auto;
+}
+.social-med {
+	position: absolute;
+	top: 92%;
+	left: 80%;
+	color: white;
+	font-size: 35px;
+	margin: 10px;
+	margin-top: 0px;
+}
+.social-med:hover {
+	color: #17a2b8;
+}
+.fab:hover {
+	color: #17a2b8;
+}
+.fab {
+	color: white;
+}
+.copy-right {
+	padding-top: 180px;
+	margin-left: 650px;
+	color: white;
+	font-family: 'Montserrat Alternates', sans-serif;
+	margin-top: 430px;
+	margin-bottom: 0px;
 }
