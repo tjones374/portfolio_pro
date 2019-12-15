@@ -38,10 +38,13 @@
 	color: white;
 }
 .copy-right {
-	padding-top: 180px;
 	margin-left: 650px;
 	color: white;
 	font-family: 'Montserrat Alternates', sans-serif;
-	margin-top: 430px;
+	margin-top: 195px;
 	margin-bottom: 0px;
+}
+.resize {
+	max-width: 100%;
+	height: 229px;
 }
