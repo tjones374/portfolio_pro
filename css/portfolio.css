@@ -41,10 +41,18 @@
 	margin-left: 650px;
 	color: white;
 	font-family: 'Montserrat Alternates', sans-serif;
-	margin-top: 195px;
+	margin-top: 110px;
 	margin-bottom: 0px;
 }
 .resize {
 	max-width: 100%;
 	height: 229px;
+}
+
+.card {
+	margin-top: 80px;
+	margin-left: 60px;
+}
+.card-link {
+	color: #17a2b8;
 }
