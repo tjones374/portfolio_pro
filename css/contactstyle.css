@@ -1,6 +1,7 @@
 .nav-link {
 	color: white;
 }
+
 .navbar-brand {
 	color: white;
 	font-family: 'Montserrat Alternates', sans-serif;
@@ -8,10 +9,12 @@
 	font-size: 25px;
 	font-weight: 900;
 }
+
 .navbar {
 	font-family: 'Montserrat Alternates', sans-serif;
 	font: bold;
 }
+
 .content {
 	color: white;
 	max-width: 100%;
@@ -22,20 +25,6 @@
 	font-family: 'Montserrat Alternates', sans-serif;
 }
 
-/* .phone {
-	font-family: 'Montserrat Alternates', sans-serif;
-	margin-left: 180px;
-	color: white;
-	padding-top: 20px;
-} */
-
-/* .email {
-	font-family: 'Montserrat Alternates', sans-serif;
-	margin-left: 130px;
-	color: white;
-	padding-top: 5px;
-} */
-
 .resume {
 	font-family: 'Montserrat Alternates', sans-serif;
 	padding-right: 4%;
@@ -43,19 +32,11 @@
 	position: relative;
 	color: white;
 }
+
 .resume:hover {
 	color: #17a2b8;
 }
-/* #resume {
-	margin-bottom: 10px;
-	padding-bottom: 20px;
-} */
-/* h2 {
-	color: white;
-	font-family: 'Montserrat Alternates', sans-serif;
-	margin-left: 260px;
-	padding-top: 30px;
-} */
+
 .social-med {
 	position: relative;
 	left: 29%;
@@ -65,12 +46,15 @@
 	max-width: 100%;
 	height: auto;
 }
+
 .fab {
 	color: white;
 }
+
 .fab:hover {
 	color: #17a2b8;
 }
+
 .background-portfolio {
 	background-image: url(../assets/bckgrd2.jpg);
 	max-width: 100%;
@@ -79,6 +63,7 @@
 	background-size: cover;
 	overflow: hidden;
 }
+
 .copy-right {
 	color: white;
 	font-family: 'Montserrat Alternates', sans-serif;

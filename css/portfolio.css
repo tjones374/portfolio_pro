@@ -1,6 +1,7 @@
 .nav-link {
 	color: white;
 }
+
 .navbar-brand {
 	color: white;
 	font-family: 'Montserrat Alternates', sans-serif;
@@ -8,10 +9,12 @@
 	font-size: 25px;
 	font-weight: 900;
 }
+
 .navbar {
 	font-family: 'Montserrat Alternates', sans-serif;
 	font: bold;
 }
+
 .background-portfolio {
 	background-image: url(../assets/bckgrd_port.jpg);
 	background-size: cover;
@@ -20,6 +23,7 @@
 	max-width: 100%;
 	height: auto;
 }
+
 .social-med {
 	position: relative;
 	left: 38%;
@@ -30,15 +34,18 @@
 	max-width: 100%;
 	height: auto;
 }
+
 .social-med:hover {
 	color: #17a2b8;
 }
 .fab:hover {
 	color: #17a2b8;
 }
+
 .fab {
 	color: white;
 }
+
 .copy-right {
 	color: white;
 	font-family: 'Montserrat Alternates', sans-serif;
@@ -48,10 +55,12 @@
 	max-width: 100%;
 	height: auto;
 }
+
 .card {
 	margin-top: 10px;
 	margin: center;
 }
+
 .card-link {
 	color: #17a2b8;
 }
