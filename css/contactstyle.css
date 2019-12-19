@@ -61,15 +61,15 @@
 	height: auto;
 	background-repeat: no-repeat;
 	background-size: cover;
-	overflow-x: hidden;
+	overflow: hidden;
 }
 
 .copy-right {
 	color: white;
 	font-family: 'Montserrat Alternates', sans-serif;
 	position: relative;
-	padding-top: 11.5%;
-	padding-left: 26%;
+	padding-top: 9%;
+	padding-left: 32.5%;
 	max-width: 100%;
 	height: auto;
 }
