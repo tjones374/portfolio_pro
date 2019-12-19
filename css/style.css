@@ -19,7 +19,7 @@ body {
 	background-image: url(../assets/bckgrd2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	overflow: hidden;
+	overflow-x: hidden;
 	max-width: 100%;
 	height: auto;
 }

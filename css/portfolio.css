@@ -19,7 +19,7 @@
 	background-image: url(../assets/bckgrd_port.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	overflow: hidden;
+	overflow-x: hidden;
 	max-width: 100%;
 	height: auto;
 }
@@ -60,7 +60,6 @@
 	margin-top: 10px;
 	margin: center;
 }
-
 .card-link {
 	color: #17a2b8;
 }

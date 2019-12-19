@@ -61,7 +61,7 @@
 	height: auto;
 	background-repeat: no-repeat;
 	background-size: cover;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 
 .copy-right {
