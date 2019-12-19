@@ -5,61 +5,65 @@
 	color: white;
 	font-family: 'Montserrat Alternates', sans-serif;
 	font: bold;
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 900;
 }
 .navbar {
 	font-family: 'Montserrat Alternates', sans-serif;
 	font: bold;
-	font-size: 20px;
 }
-.contact {
+.content {
 	color: white;
+	max-width: 100%;
+	height: auto;
+	text-align: center;
+	padding-top: 12%;
+	padding-right: 20%;
 	font-family: 'Montserrat Alternates', sans-serif;
-	width: 100%;
-	margin-left: 180px;
-	padding-top: 100px;
 }
 
-.phone {
+/* .phone {
 	font-family: 'Montserrat Alternates', sans-serif;
 	margin-left: 180px;
 	color: white;
 	padding-top: 20px;
-}
+} */
 
-.email {
+/* .email {
 	font-family: 'Montserrat Alternates', sans-serif;
 	margin-left: 130px;
 	color: white;
 	padding-top: 5px;
-}
+} */
 
 .resume {
 	font-family: 'Montserrat Alternates', sans-serif;
-	margin-left: 260px;
-	padding-top: 20px;
+	padding-right: 4%;
+	padding-top: 5%;
+	position: relative;
 	color: white;
 }
 .resume:hover {
 	color: #17a2b8;
 }
-#resume {
+/* #resume {
 	margin-bottom: 10px;
 	padding-bottom: 20px;
-}
-h2 {
+} */
+/* h2 {
 	color: white;
 	font-family: 'Montserrat Alternates', sans-serif;
 	margin-left: 260px;
 	padding-top: 30px;
-}
+} */
 .social-med {
 	position: relative;
-	left: 21.5%;
+	left: 29%;
 	color: white;
 	font-size: 35px;
 	margin-bottom: 0px;
+	max-width: 100%;
+	height: auto;
 }
 .fab {
 	color: white;
@@ -73,18 +77,14 @@ h2 {
 	height: auto;
 	background-repeat: no-repeat;
 	background-size: cover;
-	z-index: -1;
 	overflow: hidden;
 }
 .copy-right {
-	margin-left: 240px;
 	color: white;
 	font-family: 'Montserrat Alternates', sans-serif;
-	margin-top: 110px;
-}
-footer {
-	color: white;
-	margin-left: 615px;
-	padding-top: 220px;
-	margin-bottom: 0px;
+	position: relative;
+	padding-top: 11.5%;
+	padding-left: 26%;
+	max-width: 100%;
+	height: auto;
 }
