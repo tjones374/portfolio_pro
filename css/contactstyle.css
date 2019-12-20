@@ -13,6 +13,7 @@
 .navbar {
 	font-family: 'Montserrat Alternates', sans-serif;
 	font: bold;
+	background-color: #17a2b8;
 }
 
 .content {
@@ -20,7 +21,7 @@
 	max-width: 100%;
 	height: auto;
 	text-align: center;
-	padding-top: 12%;
+	padding-top: 7.5%;
 	padding-right: 20%;
 	font-family: 'Montserrat Alternates', sans-serif;
 }
@@ -55,13 +56,14 @@
 	color: #17a2b8;
 }
 
+html,
 .background-portfolio {
 	background-image: url(../assets/bckgrd2.jpg);
 	max-width: 100%;
 	height: auto;
 	background-repeat: no-repeat;
 	background-size: cover;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 
 .copy-right {

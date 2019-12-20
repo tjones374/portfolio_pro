@@ -13,8 +13,12 @@
 .navbar {
 	font-family: 'Montserrat Alternates', sans-serif;
 	font: bold;
+	background-color: #17a2b8;
+	max-width: 100%;
+	height: auto;
 }
 
+html,
 .background-portfolio {
 	background-image: url(../assets/bckgrd_port.jpg);
 	background-size: cover;
@@ -30,7 +34,7 @@
 	color: white;
 	font-size: 35px;
 	margin-bottom: 0px;
-	padding-top: 20px;
+	padding-top: -2%;
 	max-width: 100%;
 	height: auto;
 }
@@ -57,9 +61,11 @@
 }
 
 .card {
-	margin-top: 10px;
-	margin: center;
+	margin-top: 0;
 }
 .card-link {
 	color: #17a2b8;
+}
+.card-body {
+	padding-top: 1%;
 }

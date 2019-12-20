@@ -1,63 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-       
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-         <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/3d7349b3f4.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link type="text/css" rel="stylesheet" href="css/style.css" />
-       
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+		<script
+			src="https://kit.fontawesome.com/3d7349b3f4.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap"
+			rel="stylesheet"
+		/>
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+
 		<title>About Page</title>
 	</head>
 	<body>
-    
-		<nav class="navbar navbar-toggleable-sm bg-info navbar-inverse">
-<div class="container-fluid">
-<button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
-    <a href="index.html" class="navbar-brand">Trudy Jones</a>
+		<!-- Header and Navbar -->
+		<div class="wrapper">
+			<div class="container-fluid mb-5 p-0" id="navHeader">
+				<nav class="navbar navbar-expand-sm navbar-light-inverse">
+					<a class="navbar-brand" id="navbarLogo" href="index.html"
+						>Trudy Jones</a
+					>
+					<!-- Hamburger Menu -->
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon" id="toggler-icon"></span>
+					</button>
+					<div
+						class="collapse navbar-collapse justify-content-end"
+						id="navbarNav"
+					></div>
+					<div class="navbar-nav">
+						<a class="nav-item nav-link" href="index.html">About</a>
+						<a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+						<a class="nav-item nav-link" href="contact.html">Contact</a>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6"></div>
+			</div>
+			<h1 class="title"><strong>Full Stack Developer</strong></h1>
+			<h2 class="tag-line">
+				A love for learning, passion for problem-solving, and dedication to
+				community collaboration drives innovation in my products, service, and
+				code.
+			</h2>
+		</div>
+		<div class="col-md-6 social-med">
+			<a
+				href="https://www.facebook.com/trudyjonesdev/?view_public_for=108301557335730"
+				class="fab fa-facebook-square"
+				target="_blank"
+			></a>
+			<a
+				href="https://twitter.com/at_trudyjones"
+				class="fab fa-twitter-square"
+				target="_blank"
+			></a>
+			<a
+				href="https://www.instagram.com/at_trudyjones/"
+				class="fab fa-instagram"
+				target="_blank"
+			></a>
+			<a
+				href="https://github.com/tjones374"
+				class="fab fa-github-square"
+				target="_blank"
+			></a>
+			<a
+				href="https://www.linkedin.com/in/trudyjones/"
+				class="fab fa-linkedin"
+				target="_blank"
+			></a>
+		</div>
+		<div class="copy-right">Copyright © 2019</div>
 
-    <span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="mainNav"></div>
-
-<div class="navbar-nav">
-    <ul class="nav justify-content-end">
-  <li class="nav-item px-4">
-    <a class="nav-link active" href="index.html">About</a>
-  </li>
-  <li class="nav-item px-4">
-    <a class="nav-link active" href="portfolio.html">Portfolio</a>
-  </li>
-  <li class="nav-item px-4">
-    <a class="nav-link active" href="contact.html">Contact</a>
-  </li>
-</ul>
-  </nav>
-  </div>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col-md-6">
-        </div>
-    </div>
-
-    <h1 class="title"><strong>Full Stack Developer</strong></h1>  
-    <h2 class="tag-line">A love for learning, passion for problem-solving, and dedication to community collaboration drives innovation in my products, service, and code.</h2>
-</div> 
-            <div class="col-md-6 social-med">
-              <a href="https://www.facebook.com/trudyjonesdev/?view_public_for=108301557335730" class="fab fa-facebook-square" target="_blank"></a>
-              <a href="https://twitter.com/at_trudyjones" class="fab fa-twitter-square" target="_blank"></a>
-              <a href="https://www.instagram.com/at_trudyjones/" class="fab fa-instagram" target="_blank"></a>
-              <a href="https://github.com/tjones374" class="fab fa-github-square" target="_blank"></a>
-              <a href="https://www.linkedin.com/in/trudyjones/" class="fab fa-linkedin" target="_blank"></a>
-            </div>
-  <div class="copy-right">Copyright © 2019</div>
-          
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+			crossorigin="anonymous"
+		></script>
 	</body>
 </html>
